@@ -4,8 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        h1{
+            color: #00f; /* 16진수 표기법 */
+            text-align: center;
+            /* text-shadow: 가로거리 세로거리 번짐정도 색상; */
+            text-shadow: 1px 2px 3px #333;
+            letter-spacing: -2px;
+        }
+        h2{
+            color: pink;
+            text-shadow: 2px -7px 20px #2596aa;
+        }
+        p{
+            color: green; /* 색상 이름 표기법 */
+            text-align: right;
+            /* 줄간격 조절 */
+            line-height: 50px;
+            /* line-height: 2.0; */
+            /* line-height: 200%; */
+        }
+        span{
+            color: rgb(255, 0, 0); /* rgb 표기법 */
+            font-weight: bold;
+        }
+        .hanra{
+            color: orangered;
+            font-weight: 400;
+        }
+        .orange{
+            color: orange;
+        }
+        .second{
+            color: yellow;
+        }
+        .third{
+            color: blue;
+        }
+        em{
+            font-size: 14px;
+            color: rgba(0,0,0,8);
+        }
+        .ptext{
+            text-align: center;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: aquamarine;
+            text-align: center;
+            line-height: 200px;
+            /* text-decoration: underline; */
+            /* text-decoration: overline; */
+            text-decoration: line-through;
+        }
+        .boxsecond{
+            width: 100px;
+            height: 100px;
+            background-color: beige;
+            text-align: center;
+            line-height: 100px;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>레드향</h1>
+    <h2>레드향</h2>
+    <p class="ptext">껍질에 붉은 빛이 돌아 <span>레드향</span> 이라 불린다</p>
+    <p class="second ">레드향은 <span class="hanra">한라봉</span>과 <span class="orange">귤</span>을 교배한 것으로</p>
+    <p class="third">일반 귤보다 2~3배 크고, <em>과육이 붉고 통통</em>하다</p>
+    <!-- 박스 안에 글자 중간 정렬 -->
+     <div class="box">박스 - 1</div>
+     <!-- <p class="box"></p> -->
+      <div class="boxsecond">박스 - 2</div>
+      <a href="https://www.google.com/">구글로이동</a>
 </body>
 </html>
