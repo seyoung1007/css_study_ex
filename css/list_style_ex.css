@@ -1,0 +1,15 @@
+.menu1{
+    background-color: pink;
+    padding: 10px;
+    list-style: none;
+    width: 200px;
+}
+.menu1 li{
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
