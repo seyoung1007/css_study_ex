@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+.flex-container{
+    /* width: 600px; */
+    width: 60% / 1;
+    background-color: antiquewhite;
+    margin: 100px auto;
+    padding: 10px;
+}
+.flex-container ul{
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: aquamarine;
+}
+.flex-container ul li{
+    /* width: calc((100% / 4) - 30px ); */
+    /* flex: 1; */
+    width: calc((100% - 30px) / 4);
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    /* margin-right: 10px; */
+    background-color: blue;
+}
+/* 이미지 레이아웃 */
+.img-container{
+    width: 900px;
+    display: flex;
+    gap: 40px;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+.img-container1 {
+    width: 800px;
+    background-color: pink;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.img-container1 h1 {
+    width: 100%; /* 제목은 가로를 다 채우게 함 */
+    text-align: center;
+    border-bottom: 3px solid #333;
+    margin-bottom: 20px;
+}
+
+.img-container1 ul {
+    display: flex;      /* 핵심: 자식 li들을 가로로 배치 */
+    justify-content: center; /* 가운데 정렬 */
+    gap: 40px;          /* 이미지 사이 간격 */
+    list-style: none;   /* 점 제거 */
+    padding: 0;
+}
+
+.img-container1 li {
+    width: 300px;       /* 100%가 아니라 적절한 크기를 지정해야 옆으로 붙습니다 */
+    text-align: center;
+}
+
+.img-container1 li img {
+    width: 200px;        /* li 박스 너비(300px)에 맞춰 이미지 크기 조절 */
+    padding: 10px;
+    height: auto;
+}
+h1{
+    display: flex;
+}
+p{
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    width: 150px;
+}

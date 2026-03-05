@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+.container {
+  background-color: aqua;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.container ul {
+ display: flex;
+ gap: 30px;
+}
+li {
+    padding: 10px;
+ width: calc(100% / 2);
+ background-color: rgb(219, 164, 164);
+}
+li img{
+    width: 100%;
+
+}
+h4{
+    padding: 10px;
+    color: white;
+    background-color: gray;
+    border-radius: 50px;
+    display: inline-block;
+}
+p{
+    padding: 10px;
+}
